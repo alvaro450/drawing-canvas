@@ -1,0 +1,27 @@
+h1,
+h2 {
+  font-family: Lato;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  /* background-color: blue; */
+}
+
+.btn--clear {
+  margin-right: 10px;
+}
+.toolbar {
+  height: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 5px;
+}
+
+canvas {
+  border: 1px solid red;
+}
