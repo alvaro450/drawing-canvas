@@ -13,8 +13,8 @@ export class DrawingCanvas {
   }
 
   resizeCanvasToFitScreen = () => {
-    this.canvasContext.canvas.width = window.innerWidth - 5;
-    this.canvasContext.canvas.height = window.innerHeight - 5;
+    this.canvasContext.canvas.width = window.innerWidth - 10;
+    this.canvasContext.canvas.height = window.innerHeight - 40;
   };
 
   // Updates the coordianates of the cursor when
